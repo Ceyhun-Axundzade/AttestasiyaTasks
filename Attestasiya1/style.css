@@ -1,0 +1,34 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    margin-right: 20px;
+}
+p{
+    color: white;
+    font-family: "Roboto";
+}
+body {
+    background-image: url('https://media.istockphoto.com/id/1339787499/photo/empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg?b=1&s=170667a&w=0&k=20&c=sEYFpHbrxOugC-NlO4vh1AQurJAsR-RnLbg_KHgj3kM=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.left{
+    font-size: 30px;
+    margin-left: 5px;
+  }
+.bottom {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+}
+.bottom p{
+    font-size: 30px;
+}
+
